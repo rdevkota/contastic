@@ -12,3 +12,4 @@ six
 tornado
 Werkzeug
 HoloViews
+Gunicorn
