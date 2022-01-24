@@ -1,0 +1,14 @@
+bokeh
+click
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+numpy
+python-dateutil
+PyYAML
+requests
+six
+tornado
+Werkzeug
+HoloViews
