@@ -3,7 +3,7 @@ from flask import Flask, render_template
 from bokeh.embed import components
 from bokeh.plotting import figure
 from bokeh.resources import INLINE
-
+# removed utf_8 lib due to some issue
 
 app = Flask(__name__)
 
