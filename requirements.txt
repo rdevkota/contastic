@@ -1,6 +1,6 @@
 bokeh
 click
-Flask
+flask
 itsdangerous
 Jinja2
 MarkupSafe

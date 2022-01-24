@@ -5,7 +5,7 @@ from bokeh.plotting import figure
 from bokeh.resources import INLINE
 # removed utf_8 lib due to some issue
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 
 @app.route('/')
@@ -43,5 +43,6 @@ def bokeh():
     return html
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# run the flask app.
+if __name__ == "__main__":
+	app.run(debug=True)
